@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CoffeePerfectPageComponent } from './coffee-perfect-page/coffee-perfect-page.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CoffeePerfectPageComponent
   ],
   imports: [
     BrowserModule,

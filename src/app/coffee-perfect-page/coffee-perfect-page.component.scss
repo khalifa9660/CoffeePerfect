@@ -1,14 +1,3 @@
-/* You can add global styles to this file, and also import other style files */
-// Importing Google Fonts
-@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "poppins", sans-serif;
-}
-
 :root{
     // Colors
     --white-color:#fff;
@@ -39,4 +28,36 @@
 
     // Site max width
     --site-max-width: 1300px
+}
+
+// Stylings for whole site
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+img{
+    width: 100%;
+}
+
+/* Navbar styling */
+header{
+    background: var(--primary-color)
+}
+
+.navbar .nav-menu .nav-link{
+    color: var(--white-color);
+}
+
+.navbar .nav-logo .logo-text{
+    color: var(--white-color);
 }
