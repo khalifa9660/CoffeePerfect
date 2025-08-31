@@ -120,3 +120,47 @@ header .navbar{
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-semiBold);
 }
+
+.hero-section .hero-details .description{
+    max-width: 70%;
+    margin: 24px ° 40px;
+    font-size: var(--font-size-m);
+}
+
+.hero-section .hero-details .buttons{
+    display: flex;
+    gap: 23px;
+    margin-top: 25px;
+}
+
+.hero-section .hero-details .button{
+    padding: 10px 26px;
+    border: 2px solid transparent;
+    color: var(--primary-color);
+    border-radius: var(--border-radius-m);
+    background: var(--secondary-color);
+    font-weight: var(--font-weight-medium);
+
+}
+
+.hero-section .hero-details .button:hover,
+.hero-section .hero-details .contact-us{
+    color: var(--white-color);
+    border-color: var(--white-color);
+    background: transparent;
+}
+
+.hero-section .hero-details .contact-us:hover{
+    color: var(--primary-color);
+    border-color: var(--secondary-color);
+    background: var(--secondary-color);
+}
+
+.hero-section .hero-image-wrapper{
+    max-width: 500px;
+    margin-right: 30px;
+}
+
+@media screen and (max-width:900px) {
+    
+}
