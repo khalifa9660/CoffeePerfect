@@ -8,3 +8,9 @@ import { Component } from '@angular/core';
 export class CoffeePerfectPageComponent {
 
 }
+
+const menuIsOpen = document.querySelector("#menu-open-button");
+menuIsOpen?.addEventListener("click", () =>{
+  // Toggle Mobile menu visibility
+  document.body.classList.toggle("show-mobile-menu");
+});
